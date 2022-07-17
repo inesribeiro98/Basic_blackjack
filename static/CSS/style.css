@@ -1,0 +1,70 @@
+body{
+    font-family: OCR A Std, monospace; 
+}
+
+
+h1 {    
+    font-size: xxx-large;
+    margin-bottom: 30px;
+}
+
+.container-1{
+    width: 75%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -60%);
+}
+
+.container-1 div{
+    margin: 5px;
+}
+
+
+.flex_backjack_1, .flex_backjack_2, .flex_backjack_3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.flex_backjack_1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background: url(../Images/backjack.jpg);
+    color:white;
+    padding: 1%;
+}
+
+
+
+.flex_backjack_1 div{
+    min-height: 350px;
+    text-align:center;
+    flex:1;
+}
+
+.flex_backjack_1 img{
+    width:25%;
+    padding:10px;
+}
+
+table, th, td{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size:1.25rem;
+}
+
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
